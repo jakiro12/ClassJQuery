@@ -2,11 +2,15 @@ body{
     height: 100vh;
     
 }
-
-ul{
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(10,100px);
+#list{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+}
+.another{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
 }
 div{
     width: 200px;
